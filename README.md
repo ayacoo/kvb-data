@@ -16,9 +16,13 @@ richtigen Betrieb gecached werden.
 ####generator/mofi.php
 *Erzeugt eine Liste der aktuellen Bus oder Bahn Störungen => json/tramDisruptions.json / json/busDisruptions.json*
 
-Aktuelle Daten vom 25.11.2016
+###linecolors.json
+*Die Farbcodes wurden basierend auf dem aktuellen Liniennetzplan der KVB und mit Hilfe von Colorzilla ausgelesen*
+
+Aktuelle Daten vom 28.11.2016
 - stations.json (selbst generiert)
 - lines.json (selbst generiert)
+- linecolors.json (selbst generiert)
 - tramStations.json (Quelle: OpenData, Link siehe unten)
 
 # Beispiele
@@ -28,10 +32,13 @@ Aktuelle Daten vom 25.11.2016
 
 ####examples/linepath.php
 *Erzeugt eine Liste des Linienweges anhand einer übergebenen Linie*
-=> <code>linienweg.php?line=7&direction=1 oder linienweg.php?line=7&direction=2</code>
+=> <code>linepath.php?line=7&direction=1 oder linepath.php?line=7&direction=2</code>
 
 ####examples/map.php
 *Zeigt die aktuellen Stadtbahnhaltestellen mit Fahrplaninfos auf einer Karte an. Google Maps Key wird benötigt*
+
+####examples/linemap.php
+*Zeigt den aktuellen Linienplan der KVB ab. Google Maps Key wird benötigt*
 
 # Mögliche Anwendungsfälle
 - Telegram Bot anbinden ("/haltestelle Neumarkt" oder "/haltestelle [ID]")
@@ -40,9 +47,10 @@ Aktuelle Daten vom 25.11.2016
 
 ## Services
 - https://offenedaten-koeln.de/dataset/haltestellen-stadtbahn-u-bahn-koeln
+- https://offenedaten-koeln.de/dataset/strecke-stadtbahn-u-bahn-koeln
 - [KVB Webseite](https://www.kvb-koeln.de/)
 - [phpQuery](https://github.com/bariew/phpquery)
-- Google Maps
+- Google Maps API
 
 ## Entwicklungsstand
 
