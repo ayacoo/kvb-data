@@ -14,7 +14,7 @@ $arrColors = json_decode($json);
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Simple Polylines</title>
+    <title>KVB Liniennetzplan</title>
     <style>
         html, body {
             height: 100%;

@@ -29,6 +29,7 @@ Aktuelle Daten vom 28.11.2016
 
 ####examples/station.php
 *Holt alle Abfahrtszeiten einer ausgewählten Haltestellen via UID*
+=> <code>Hansaring station.php?id=36</code>
 
 ####examples/linepath.php
 *Erzeugt eine Liste des Linienweges anhand einer übergebenen Linie*
@@ -39,6 +40,7 @@ Aktuelle Daten vom 28.11.2016
 
 ####examples/linemap.php
 *Zeigt den aktuellen Linienplan der KVB ab. Google Maps Key wird benötigt*
+=> <code>Einzelne Linien können so abgerufen werden linemap.php?line=1</code>
 
 # Mögliche Anwendungsfälle
 - Telegram Bot anbinden ("/haltestelle Neumarkt" oder "/haltestelle [ID]")
