@@ -1,0 +1,3307 @@
+
+{
+  "displayFieldName": "NAME",
+  "fieldAliases": {
+    "NAME": "Name",
+    "KNOTENNUMMER": "Knotennummer",
+    "TYP": "Typ",
+    "NR_STADTTEIL": "Stadtteil-Nr.",
+    "STADTTEIL": "Stadtteil",
+    "NR_STADTBEZIRK": "Stadtbezirk-Nr.",
+    "STADTBEZIRK": "Stadtbezirk",
+    "HYPERLINK": "HYPERLINK",
+    "OBJECTID": "OBJECTID"
+  },
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [
+    {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Name",
+      "length": 40
+    },
+    {
+      "name": "KNOTENNUMMER",
+      "type": "esriFieldTypeString",
+      "alias": "Knotennummer",
+      "length": 20
+    },
+    {
+      "name": "TYP",
+      "type": "esriFieldTypeString",
+      "alias": "Typ",
+      "length": 20
+    },
+    {
+      "name": "NR_STADTTEIL",
+      "type": "esriFieldTypeString",
+      "alias": "Stadtteil-Nr.",
+      "length": 3
+    },
+    {
+      "name": "STADTTEIL",
+      "type": "esriFieldTypeString",
+      "alias": "Stadtteil",
+      "length": 40
+    },
+    {
+      "name": "NR_STADTBEZIRK",
+      "type": "esriFieldTypeString",
+      "alias": "Stadtbezirk-Nr.",
+      "length": 1
+    },
+    {
+      "name": "STADTBEZIRK",
+      "type": "esriFieldTypeString",
+      "alias": "Stadtbezirk",
+      "length": 40
+    },
+    {
+      "name": "HYPERLINK",
+      "type": "esriFieldTypeString",
+      "alias": "HYPERLINK",
+      "length": 200
+    },
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "NAME": "Amsterdamer Str./Gürtel",
+        "KNOTENNUMMER": "317",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "503",
+        "STADTTEIL": "Riehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/317/",
+        "OBJECTID": 1
+      },
+      "geometry": {
+        "x": 6.9691002807463622,
+        "y": 50.970849180417972
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Slabystr.",
+        "KNOTENNUMMER": "315",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "503",
+        "STADTTEIL": "Riehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/315/",
+        "OBJECTID": 2
+      },
+      "geometry": {
+        "x": 6.9881160312996728,
+        "y": 50.96659064159747
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Severinsbrücke",
+        "KNOTENNUMMER": "45",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "105",
+        "STADTTEIL": "Deutz",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/45/",
+        "OBJECTID": 3
+      },
+      "geometry": {
+        "x": 6.9724848167604341,
+        "y": 50.930450033425181
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Boltensternstr.",
+        "KNOTENNUMMER": "314",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "503",
+        "STADTTEIL": "Riehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/314/",
+        "OBJECTID": 4
+      },
+      "geometry": {
+        "x": 6.9809527122528099,
+        "y": 50.962408114256
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Zoo/Flora",
+        "KNOTENNUMMER": "313",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "503",
+        "STADTTEIL": "Riehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/313/",
+        "OBJECTID": 5
+      },
+      "geometry": {
+        "x": 6.9732751310398928,
+        "y": 50.957393431967319
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Kinderkrankenhaus",
+        "KNOTENNUMMER": "316",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "503",
+        "STADTTEIL": "Riehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/316/",
+        "OBJECTID": 6
+      },
+      "geometry": {
+        "x": 6.968400980265419,
+        "y": 50.963241059264448
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Buchforst Waldecker Str.",
+        "KNOTENNUMMER": "569",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "902",
+        "STADTTEIL": "Buchforst",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/569/",
+        "OBJECTID": 7
+      },
+      "geometry": {
+        "x": 7.0050048341553106,
+        "y": 50.951002793262717
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Ollenhauerring",
+        "KNOTENNUMMER": "298",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "405",
+        "STADTTEIL": "Bocklemünd/Mengenich",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/298/",
+        "OBJECTID": 8
+      },
+      "geometry": {
+        "x": 6.8711874587138517,
+        "y": 50.97591785859349
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Merkenich Mitte",
+        "KNOTENNUMMER": "416",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "601",
+        "STADTTEIL": "Merkenich",
+        "NR_STADTBEZIRK": "6",
+        "STADTBEZIRK": "Chorweiler",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/416/",
+        "OBJECTID": 9
+      },
+      "geometry": {
+        "x": 6.9529859464668267,
+        "y": 51.024467735234197
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Merkenich",
+        "KNOTENNUMMER": "417",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "601",
+        "STADTTEIL": "Merkenich",
+        "NR_STADTBEZIRK": "6",
+        "STADTBEZIRK": "Chorweiler",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/417/",
+        "OBJECTID": 10
+      },
+      "geometry": {
+        "x": 6.9478611306052391,
+        "y": 51.028275908219044
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Rosenhügel",
+        "KNOTENNUMMER": "228",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "714",
+        "STADTTEIL": "Zündorf",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/228/",
+        "OBJECTID": 11
+      },
+      "geometry": {
+        "x": 7.0600241217197732,
+        "y": 50.874141863834986
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Zündorf",
+        "KNOTENNUMMER": "486",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "714",
+        "STADTTEIL": "Zündorf",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/486/",
+        "OBJECTID": 12
+      },
+      "geometry": {
+        "x": 7.0490598017481974,
+        "y": 50.866096525384933
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Mollwitzstr.",
+        "KNOTENNUMMER": "336",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "505",
+        "STADTTEIL": "Weidenpesch",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/336/",
+        "OBJECTID": 13
+      },
+      "geometry": {
+        "x": 6.948778496118357,
+        "y": 50.978261471014285
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Scheibenstr.",
+        "KNOTENNUMMER": "337",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "505",
+        "STADTTEIL": "Weidenpesch",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/337/",
+        "OBJECTID": 14
+      },
+      "geometry": {
+        "x": 6.946281407638156,
+        "y": 50.98570685871951
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Leuchterstr.",
+        "KNOTENNUMMER": "608",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "907",
+        "STADTTEIL": "Dünnwald",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/608/",
+        "OBJECTID": 15
+      },
+      "geometry": {
+        "x": 7.0376531655628005,
+        "y": 50.996445691939641
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Odenthaler Str.",
+        "KNOTENNUMMER": "609",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "907",
+        "STADTTEIL": "Dünnwald",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/609/",
+        "OBJECTID": 16
+      },
+      "geometry": {
+        "x": 7.0424057000442541,
+        "y": 51.001293513923798
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Schlebusch",
+        "KNOTENNUMMER": "663",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "907",
+        "STADTTEIL": "Dünnwald",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/663/",
+        "OBJECTID": 17
+      },
+      "geometry": {
+        "x": 7.0445685373142863,
+        "y": 51.018929072539379
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Ebertplatz",
+        "KNOTENNUMMER": "35",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "104",
+        "STADTTEIL": "Neustadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/35/",
+        "OBJECTID": 18
+      },
+      "geometry": {
+        "x": 6.9588034221711093,
+        "y": 50.95063639912803
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Reichenspergerplatz",
+        "KNOTENNUMMER": "34",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "104",
+        "STADTTEIL": "Neustadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/34/",
+        "OBJECTID": 19
+      },
+      "geometry": {
+        "x": 6.9642957356256909,
+        "y": 50.95403405227799
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Christophstr./Mediapark",
+        "KNOTENNUMMER": "32",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "104",
+        "STADTTEIL": "Neustadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/32/",
+        "OBJECTID": 20
+      },
+      "geometry": {
+        "x": 6.9424178271031662,
+        "y": 50.94472006442119
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Friesenplatz",
+        "KNOTENNUMMER": "30",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "104",
+        "STADTTEIL": "Neustadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/30/",
+        "OBJECTID": 21
+      },
+      "geometry": {
+        "x": 6.9399714996802837,
+        "y": 50.940541789369156
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Hansaring (Stadtbahn)",
+        "KNOTENNUMMER": "17323",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "104",
+        "STADTTEIL": "Neustadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17323/",
+        "OBJECTID": 22
+      },
+      "geometry": {
+        "x": 6.9513632963081262,
+        "y": 50.948674692357905
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Hans-Böckler-Platz/Bf West",
+        "KNOTENNUMMER": "17322",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "104",
+        "STADTTEIL": "Neustadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17322/",
+        "OBJECTID": 23
+      },
+      "geometry": {
+        "x": 6.9332417470113157,
+        "y": 50.943382484146582
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Vingst",
+        "KNOTENNUMMER": "521",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "803",
+        "STADTTEIL": "Vingst",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/521/",
+        "OBJECTID": 24
+      },
+      "geometry": {
+        "x": 7.0216966214816399,
+        "y": 50.932780254810304
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Weiden Schulstr.",
+        "KNOTENNUMMER": "241",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "307",
+        "STADTTEIL": "Weiden",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/241/",
+        "OBJECTID": 25
+      },
+      "geometry": {
+        "x": 6.8286581011350789,
+        "y": 50.938391882332432
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Weiden Zentrum",
+        "KNOTENNUMMER": "261",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "307",
+        "STADTTEIL": "Weiden",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/261/",
+        "OBJECTID": 26
+      },
+      "geometry": {
+        "x": 6.8350292418018439,
+        "y": 50.938247592155697
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Bahnstr.",
+        "KNOTENNUMMER": "830",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "307",
+        "STADTTEIL": "Weiden",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/830/",
+        "OBJECTID": 27
+      },
+      "geometry": {
+        "x": 6.8451992434482767,
+        "y": 50.938120438401761
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Weiden West (Stadtbahn)",
+        "KNOTENNUMMER": "17208",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "307",
+        "STADTTEIL": "Weiden",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17208/",
+        "OBJECTID": 28
+      },
+      "geometry": {
+        "x": 6.8158899374298549,
+        "y": 50.940459456362504
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Am Emberg",
+        "KNOTENNUMMER": "607",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "906",
+        "STADTTEIL": "Höhenhaus",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/607/",
+        "OBJECTID": 29
+      },
+      "geometry": {
+        "x": 7.0296211559073525,
+        "y": 50.988821987884634
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Im Weidenbruch",
+        "KNOTENNUMMER": "606",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "906",
+        "STADTTEIL": "Höhenhaus",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/606/",
+        "OBJECTID": 30
+      },
+      "geometry": {
+        "x": 7.0225310870938529,
+        "y": 50.980524274076018
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Buchheim Frankfurter Str.",
+        "KNOTENNUMMER": "577",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "903",
+        "STADTTEIL": "Buchheim",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/577/",
+        "OBJECTID": 31
+      },
+      "geometry": {
+        "x": 7.0140747225116984,
+        "y": 50.95318065004777
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Buchheim Herler Str.",
+        "KNOTENNUMMER": "578",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "903",
+        "STADTTEIL": "Buchheim",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/578/",
+        "OBJECTID": 32
+      },
+      "geometry": {
+        "x": 7.0249661043888274,
+        "y": 50.957894791013409
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Wichheimer Str.",
+        "KNOTENNUMMER": "579",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "903",
+        "STADTTEIL": "Buchheim",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/579/",
+        "OBJECTID": 33
+      },
+      "geometry": {
+        "x": 7.0312802221125583,
+        "y": 50.961506811102545
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Escher Str.",
+        "KNOTENNUMMER": "326",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "507",
+        "STADTTEIL": "Bilderstöckchen",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/326/",
+        "OBJECTID": 34
+      },
+      "geometry": {
+        "x": 6.9337659931113249,
+        "y": 50.964566033146859
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Gelderstr./Parkgürtel (Stadtbahn)",
+        "KNOTENNUMMER": "17325",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "507",
+        "STADTTEIL": "Bilderstöckchen",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17325/",
+        "OBJECTID": 35
+      },
+      "geometry": {
+        "x": 6.9403771080298098,
+        "y": 50.968387332200187
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Rektor-Klein-Str.",
+        "KNOTENNUMMER": "272",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "406",
+        "STADTTEIL": "Ossendorf",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/272/",
+        "OBJECTID": 36
+      },
+      "geometry": {
+        "x": 6.9046431011418044,
+        "y": 50.974198131274782
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Margaretastr.",
+        "KNOTENNUMMER": "273",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "406",
+        "STADTTEIL": "Ossendorf",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/273/",
+        "OBJECTID": 37
+      },
+      "geometry": {
+        "x": 6.9054955488097587,
+        "y": 50.96824963280406
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Alter Flughafen Butzweilerhof",
+        "KNOTENNUMMER": "274",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "406",
+        "STADTTEIL": "Ossendorf",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/274/",
+        "OBJECTID": 38
+      },
+      "geometry": {
+        "x": 6.8982669157221279,
+        "y": 50.977555180438941
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Sparkasse Am Butzweilerhof",
+        "KNOTENNUMMER": "903",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "406",
+        "STADTTEIL": "Ossendorf",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/903/",
+        "OBJECTID": 39
+      },
+      "geometry": {
+        "x": 6.8878964876566062,
+        "y": 50.98508260508234
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "IKEA Am Butzweilerhof",
+        "KNOTENNUMMER": "976",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "406",
+        "STADTTEIL": "Ossendorf",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/976/",
+        "OBJECTID": 40
+      },
+      "geometry": {
+        "x": 6.8937635719327224,
+        "y": 50.982352862464651
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Porz Steinstr.",
+        "KNOTENNUMMER": "466",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "706",
+        "STADTTEIL": "Porz",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/466/",
+        "OBJECTID": 41
+      },
+      "geometry": {
+        "x": 7.0562608225742549,
+        "y": 50.891804349778091
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Porz Markt",
+        "KNOTENNUMMER": "467",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "706",
+        "STADTTEIL": "Porz",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/467/",
+        "OBJECTID": 42
+      },
+      "geometry": {
+        "x": 7.0591622072552358,
+        "y": 50.884999987899448
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Poll Salmstr.",
+        "KNOTENNUMMER": "438",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "701",
+        "STADTTEIL": "Poll",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/438/",
+        "OBJECTID": 43
+      },
+      "geometry": {
+        "x": 6.992802633981503,
+        "y": 50.915985847414049
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Baumschulenweg",
+        "KNOTENNUMMER": "439",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "701",
+        "STADTTEIL": "Poll",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/439/",
+        "OBJECTID": 44
+      },
+      "geometry": {
+        "x": 6.9999744536357964,
+        "y": 50.91488183386376
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Raiffeisenstr.",
+        "KNOTENNUMMER": "444",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "701",
+        "STADTTEIL": "Poll",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/444/",
+        "OBJECTID": 45
+      },
+      "geometry": {
+        "x": 6.9859479654440229,
+        "y": 50.919999294552518
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Rathaus",
+        "KNOTENNUMMER": "6",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "103",
+        "STADTTEIL": "Altstadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/6/",
+        "OBJECTID": 46
+      },
+      "geometry": {
+        "x": 6.9598910785888037,
+        "y": 50.939193052882864
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Weißhausstr.",
+        "KNOTENNUMMER": "150",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/150/",
+        "OBJECTID": 47
+      },
+      "geometry": {
+        "x": 6.9335149609837581,
+        "y": 50.921509293313953
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Arnulfstr.",
+        "KNOTENNUMMER": "151",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/151/",
+        "OBJECTID": 48
+      },
+      "geometry": {
+        "x": 6.930657885838202,
+        "y": 50.91873643441469
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Sülzburgstr.",
+        "KNOTENNUMMER": "152",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/152/",
+        "OBJECTID": 49
+      },
+      "geometry": {
+        "x": 6.9274979254808793,
+        "y": 50.915732190352358
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Universität",
+        "KNOTENNUMMER": "153",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/153/",
+        "OBJECTID": 50
+      },
+      "geometry": {
+        "x": 6.930927081281296,
+        "y": 50.92580888969384
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Weyertal",
+        "KNOTENNUMMER": "154",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/154/",
+        "OBJECTID": 51
+      },
+      "geometry": {
+        "x": 6.9269803751799541,
+        "y": 50.924033456178989
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Lindenburg (Universitätskliniken)",
+        "KNOTENNUMMER": "155",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/155/",
+        "OBJECTID": 52
+      },
+      "geometry": {
+        "x": 6.9216683205471954,
+        "y": 50.922241714665937
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Berrenrather Str./Gürtel",
+        "KNOTENNUMMER": "162",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/162/",
+        "OBJECTID": 53
+      },
+      "geometry": {
+        "x": 6.9203379730990617,
+        "y": 50.914647243751723
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Euskirchener Str.",
+        "KNOTENNUMMER": "163",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/163/",
+        "OBJECTID": 54
+      },
+      "geometry": {
+        "x": 6.9166079259578472,
+        "y": 50.918038617073385
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Zülpicher Str./Gürtel",
+        "KNOTENNUMMER": "164",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/164/",
+        "OBJECTID": 55
+      },
+      "geometry": {
+        "x": 6.9152593027173967,
+        "y": 50.920332492370683
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Mommsenstr.",
+        "KNOTENNUMMER": "165",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/165/",
+        "OBJECTID": 56
+      },
+      "geometry": {
+        "x": 6.9103302626995644,
+        "y": 50.919175473564501
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Sülz Hermeskeiler Platz",
+        "KNOTENNUMMER": "166",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "302",
+        "STADTTEIL": "Sülz",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/166/",
+        "OBJECTID": 57
+      },
+      "geometry": {
+        "x": 6.9072905119968482,
+        "y": 50.917167563287329
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Rudolfplatz",
+        "KNOTENNUMMER": "27",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/27/",
+        "OBJECTID": 58
+      },
+      "geometry": {
+        "x": 6.9390201592559384,
+        "y": 50.935695220146563
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Ubierring",
+        "KNOTENNUMMER": "17",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17/",
+        "OBJECTID": 59
+      },
+      "geometry": {
+        "x": 6.9654761675726187,
+        "y": 50.922408834220057
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Chlodwigplatz",
+        "KNOTENNUMMER": "18",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/18/",
+        "OBJECTID": 60
+      },
+      "geometry": {
+        "x": 6.9603599116472665,
+        "y": 50.9212105259693
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Ulrepforte",
+        "KNOTENNUMMER": "19",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/19/",
+        "OBJECTID": 61
+      },
+      "geometry": {
+        "x": 6.9520681126266437,
+        "y": 50.923975280896471
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Eifelplatz",
+        "KNOTENNUMMER": "21",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/21/",
+        "OBJECTID": 62
+      },
+      "geometry": {
+        "x": 6.9434777515296249,
+        "y": 50.923280963537657
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Eifelstr.",
+        "KNOTENNUMMER": "22",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/22/",
+        "OBJECTID": 63
+      },
+      "geometry": {
+        "x": 6.9456937330752018,
+        "y": 50.926652003075986
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Barbarossaplatz",
+        "KNOTENNUMMER": "23",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/23/",
+        "OBJECTID": 64
+      },
+      "geometry": {
+        "x": 6.9427033286991211,
+        "y": 50.928590927468527
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Zülpicher Platz",
+        "KNOTENNUMMER": "24",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/24/",
+        "OBJECTID": 65
+      },
+      "geometry": {
+        "x": 6.9407349833840462,
+        "y": 50.931141802990439
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Eifelwall",
+        "KNOTENNUMMER": "26",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/26/",
+        "OBJECTID": 66
+      },
+      "geometry": {
+        "x": 6.9370225982753775,
+        "y": 50.924789252133365
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Moltkestr.",
+        "KNOTENNUMMER": "28",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/28/",
+        "OBJECTID": 67
+      },
+      "geometry": {
+        "x": 6.931918059462002,
+        "y": 50.935536410205628
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Moltkestr. (Stadtbahn)",
+        "KNOTENNUMMER": "17162",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17162/",
+        "OBJECTID": 68
+      },
+      "geometry": {
+        "x": 6.933131950612637,
+        "y": 50.936479576239023
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Dasselstr./Bf Süd (Stadtbahn)",
+        "KNOTENNUMMER": "17202",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "102",
+        "STADTTEIL": "Neustadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17202/",
+        "OBJECTID": 69
+      },
+      "geometry": {
+        "x": 6.9357266884155715,
+        "y": 50.928251552462214
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Universitätsstr.",
+        "KNOTENNUMMER": "143",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "303",
+        "STADTTEIL": "Lindenthal",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/143/",
+        "OBJECTID": 70
+      },
+      "geometry": {
+        "x": 6.92464219051746,
+        "y": 50.936655026956345
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Melaten",
+        "KNOTENNUMMER": "144",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "303",
+        "STADTTEIL": "Lindenthal",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/144/",
+        "OBJECTID": 71
+      },
+      "geometry": {
+        "x": 6.916719920978017,
+        "y": 50.936753488641465
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Wüllnerstr.",
+        "KNOTENNUMMER": "169",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "303",
+        "STADTTEIL": "Lindenthal",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/169/",
+        "OBJECTID": 72
+      },
+      "geometry": {
+        "x": 6.9079620123043615,
+        "y": 50.931203648015895
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Dürener Str./Gürtel",
+        "KNOTENNUMMER": "170",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "303",
+        "STADTTEIL": "Lindenthal",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/170/",
+        "OBJECTID": 73
+      },
+      "geometry": {
+        "x": 6.9088197198196992,
+        "y": 50.92777204477656
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Brahmsstr.",
+        "KNOTENNUMMER": "172",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "303",
+        "STADTTEIL": "Lindenthal",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/172/",
+        "OBJECTID": 74
+      },
+      "geometry": {
+        "x": 6.8982311686787892,
+        "y": 50.925984260524025
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Gleueler Str./Gürtel",
+        "KNOTENNUMMER": "173",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "303",
+        "STADTTEIL": "Lindenthal",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/173/",
+        "OBJECTID": 75
+      },
+      "geometry": {
+        "x": 6.9122550851983382,
+        "y": 50.923789939210302
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Stüttgenhof",
+        "KNOTENNUMMER": "234",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "303",
+        "STADTTEIL": "Lindenthal",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/234/",
+        "OBJECTID": 76
+      },
+      "geometry": {
+        "x": 6.8765987926739358,
+        "y": 50.920000103070713
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Flehbachstr.",
+        "KNOTENNUMMER": "546",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "807",
+        "STADTTEIL": "Brück",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/546/",
+        "OBJECTID": 77
+      },
+      "geometry": {
+        "x": 7.0726247453303372,
+        "y": 50.947650093395396
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Brück Mauspfad",
+        "KNOTENNUMMER": "547",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "807",
+        "STADTTEIL": "Brück",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/547/",
+        "OBJECTID": 78
+      },
+      "geometry": {
+        "x": 7.0792307388052436,
+        "y": 50.94901849584889
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Alter Militärring",
+        "KNOTENNUMMER": "186",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "305",
+        "STADTTEIL": "Müngersdorf",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/186/",
+        "OBJECTID": 79
+      },
+      "geometry": {
+        "x": 6.8817405260894233,
+        "y": 50.937706221790762
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Rheinenergie-Stadion",
+        "KNOTENNUMMER": "187",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "305",
+        "STADTTEIL": "Müngersdorf",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/187/",
+        "OBJECTID": 80
+      },
+      "geometry": {
+        "x": 6.8745825540428847,
+        "y": 50.937607270962154
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Junkersdorf",
+        "KNOTENNUMMER": "200",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "305",
+        "STADTTEIL": "Müngersdorf",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/200/",
+        "OBJECTID": 81
+      },
+      "geometry": {
+        "x": 6.8683520682415349,
+        "y": 50.937653800777539
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Steinweg",
+        "KNOTENNUMMER": "553",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "808",
+        "STADTTEIL": "Rath/Heumar",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/553/",
+        "OBJECTID": 82
+      },
+      "geometry": {
+        "x": 7.0667815791265696,
+        "y": 50.923648054570556
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Porzer Str.",
+        "KNOTENNUMMER": "554",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "808",
+        "STADTTEIL": "Rath/Heumar",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/554/",
+        "OBJECTID": 83
+      },
+      "geometry": {
+        "x": 7.0750693642505338,
+        "y": 50.921621280364135
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Röttgensweg",
+        "KNOTENNUMMER": "555",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "808",
+        "STADTTEIL": "Rath/Heumar",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/555/",
+        "OBJECTID": 84
+      },
+      "geometry": {
+        "x": 7.09055395728232,
+        "y": 50.920263998641495
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Rath-Heumar",
+        "KNOTENNUMMER": "556",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "808",
+        "STADTTEIL": "Rath/Heumar",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/556/",
+        "OBJECTID": 85
+      },
+      "geometry": {
+        "x": 7.0819368332463482,
+        "y": 50.920317258073979
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Königsforst",
+        "KNOTENNUMMER": "557",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "808",
+        "STADTTEIL": "Rath/Heumar",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/557/",
+        "OBJECTID": 86
+      },
+      "geometry": {
+        "x": 7.0968988822168226,
+        "y": 50.91974605777785
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Holweide Vischeringstr.",
+        "KNOTENNUMMER": "583",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "904",
+        "STADTTEIL": "Holweide",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/583/",
+        "OBJECTID": 87
+      },
+      "geometry": {
+        "x": 7.0394901024423886,
+        "y": 50.96709725175667
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Maria-Himmelfahrt-Str.",
+        "KNOTENNUMMER": "584",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "904",
+        "STADTTEIL": "Holweide",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/584/",
+        "OBJECTID": 88
+      },
+      "geometry": {
+        "x": 7.045259456391527,
+        "y": 50.967899708658216
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Neufelder Str.",
+        "KNOTENNUMMER": "585",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "904",
+        "STADTTEIL": "Holweide",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/585/",
+        "OBJECTID": 89
+      },
+      "geometry": {
+        "x": 7.0555327544793824,
+        "y": 50.969551178846984
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Bayenthalgürtel",
+        "KNOTENNUMMER": "76",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "202",
+        "STADTTEIL": "Marienburg",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/76/",
+        "OBJECTID": 90
+      },
+      "geometry": {
+        "x": 6.9777670348898644,
+        "y": 50.906943656148719
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Heinrich-Lübke-Ufer",
+        "KNOTENNUMMER": "897",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "202",
+        "STADTTEIL": "Marienburg",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/897/",
+        "OBJECTID": 91
+      },
+      "geometry": {
+        "x": 6.9847557671892124,
+        "y": 50.899909109418545
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Sürth Bf",
+        "KNOTENNUMMER": "124",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "210",
+        "STADTTEIL": "Sürth",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/124/",
+        "OBJECTID": 92
+      },
+      "geometry": {
+        "x": 7.0034468676935164,
+        "y": 50.864106690705881
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Höhenberg Frankfurter Str.",
+        "KNOTENNUMMER": "518",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "804",
+        "STADTTEIL": "Höhenberg",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/518/",
+        "OBJECTID": 93
+      },
+      "geometry": {
+        "x": 7.0292069734165281,
+        "y": 50.941766538137543
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Fuldaer Str.",
+        "KNOTENNUMMER": "517",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "804",
+        "STADTTEIL": "Höhenberg",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/517/",
+        "OBJECTID": 94
+      },
+      "geometry": {
+        "x": 7.022586800344591,
+        "y": 50.941582029569886
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Dellbrück Mauspfad",
+        "KNOTENNUMMER": "594",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "905",
+        "STADTTEIL": "Dellbrück",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/594/",
+        "OBJECTID": 95
+      },
+      "geometry": {
+        "x": 7.0649543119924179,
+        "y": 50.971901699980592
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Dellbrück Hauptstr.",
+        "KNOTENNUMMER": "595",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "905",
+        "STADTTEIL": "Dellbrück",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/595/",
+        "OBJECTID": 96
+      },
+      "geometry": {
+        "x": 7.0748311795120999,
+        "y": 50.974813598831261
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Thielenbruch",
+        "KNOTENNUMMER": "596",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "905",
+        "STADTTEIL": "Dellbrück",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/596/",
+        "OBJECTID": 97
+      },
+      "geometry": {
+        "x": 7.0854577303618074,
+        "y": 50.978068279129495
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Rodenkirchen Bf",
+        "KNOTENNUMMER": "106",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "208",
+        "STADTTEIL": "Rodenkirchen",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/106/",
+        "OBJECTID": 98
+      },
+      "geometry": {
+        "x": 6.9900519872040077,
+        "y": 50.890910824648131
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Siegstr. (Stadtbahn)",
+        "KNOTENNUMMER": "107",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "208",
+        "STADTTEIL": "Rodenkirchen",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/107/",
+        "OBJECTID": 99
+      },
+      "geometry": {
+        "x": 6.9946370823476185,
+        "y": 50.883311708501751
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Michaelshoven",
+        "KNOTENNUMMER": "108",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "208",
+        "STADTTEIL": "Rodenkirchen",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/108/",
+        "OBJECTID": 100
+      },
+      "geometry": {
+        "x": 6.9988913070706475,
+        "y": 50.876254599376715
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Heimersdorf",
+        "KNOTENNUMMER": "384",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "604",
+        "STADTTEIL": "Heimersdorf",
+        "NR_STADTBEZIRK": "6",
+        "STADTBEZIRK": "Chorweiler",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/384/",
+        "OBJECTID": 101
+      },
+      "geometry": {
+        "x": 6.906862414989221,
+        "y": 51.012088394671508
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Chorweiler S-Bahn (Bus)",
+        "KNOTENNUMMER": "17320",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "609",
+        "STADTTEIL": "Chorweiler",
+        "NR_STADTBEZIRK": "6",
+        "STADTBEZIRK": "Chorweiler",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17320/",
+        "OBJECTID": 102
+      },
+      "geometry": {
+        "x": 6.8982068369892238,
+        "y": 51.021360200442409
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Westhoven Kölner Str.",
+        "KNOTENNUMMER": "449",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "702",
+        "STADTTEIL": "Westhoven",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/449/",
+        "OBJECTID": 103
+      },
+      "geometry": {
+        "x": 7.0147290045418478,
+        "y": 50.9067718492186
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Westhoven Berliner Str.",
+        "KNOTENNUMMER": "450",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "702",
+        "STADTTEIL": "Westhoven",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/450/",
+        "OBJECTID": 104
+      },
+      "geometry": {
+        "x": 7.0254583415577123,
+        "y": 50.901374275299013
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Meerfeldstr.",
+        "KNOTENNUMMER": "355",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "506",
+        "STADTTEIL": "Longerich",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/355/",
+        "OBJECTID": 105
+      },
+      "geometry": {
+        "x": 6.9207749542737238,
+        "y": 50.995070838445429
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Longericher Str.",
+        "KNOTENNUMMER": "356",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "506",
+        "STADTTEIL": "Longerich",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/356/",
+        "OBJECTID": 106
+      },
+      "geometry": {
+        "x": 6.9145844302085919,
+        "y": 50.996090331645554
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Longerich Friedhof",
+        "KNOTENNUMMER": "357",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "506",
+        "STADTTEIL": "Longerich",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/357/",
+        "OBJECTID": 107
+      },
+      "geometry": {
+        "x": 6.9112834779652754,
+        "y": 50.99555881227905
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Wilhelm-Sollmann-Str.",
+        "KNOTENNUMMER": "362",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "506",
+        "STADTTEIL": "Longerich",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/362/",
+        "OBJECTID": 108
+      },
+      "geometry": {
+        "x": 6.9411111455417016,
+        "y": 50.992014151016583
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Altonaer Platz",
+        "KNOTENNUMMER": "363",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "506",
+        "STADTTEIL": "Longerich",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/363/",
+        "OBJECTID": 109
+      },
+      "geometry": {
+        "x": 6.9333572716397276,
+        "y": 50.993874241944155
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Herforder Str.",
+        "KNOTENNUMMER": "364",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "506",
+        "STADTTEIL": "Longerich",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/364/",
+        "OBJECTID": 110
+      },
+      "geometry": {
+        "x": 6.9261360288135183,
+        "y": 50.994614930311698
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Godorf Bf",
+        "KNOTENNUMMER": "134",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "211",
+        "STADTTEIL": "Godorf",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/134/",
+        "OBJECTID": 111
+      },
+      "geometry": {
+        "x": 6.9785253281103836,
+        "y": 50.847508128585247
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Mülheim Wiener Platz",
+        "KNOTENNUMMER": "570",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "901",
+        "STADTTEIL": "Mülheim",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/570/",
+        "OBJECTID": 112
+      },
+      "geometry": {
+        "x": 7.0041990998649126,
+        "y": 50.961814894200451
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Stegerwaldsiedlung",
+        "KNOTENNUMMER": "567",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "901",
+        "STADTTEIL": "Mülheim",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/567/",
+        "OBJECTID": 113
+      },
+      "geometry": {
+        "x": 6.9928493636625655,
+        "y": 50.948230255426253
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Grünstr.",
+        "KNOTENNUMMER": "568",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "901",
+        "STADTTEIL": "Mülheim",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/568/",
+        "OBJECTID": 114
+      },
+      "geometry": {
+        "x": 7.0003086980995048,
+        "y": 50.955645677138627
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Keupstr.",
+        "KNOTENNUMMER": "631",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "901",
+        "STADTTEIL": "Mülheim",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/631/",
+        "OBJECTID": 115
+      },
+      "geometry": {
+        "x": 7.0067410138815465,
+        "y": 50.966143821344644
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Von-Sparr-Str.",
+        "KNOTENNUMMER": "632",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "901",
+        "STADTTEIL": "Mülheim",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/632/",
+        "OBJECTID": 116
+      },
+      "geometry": {
+        "x": 7.0113898852305025,
+        "y": 50.970445461913528
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Mülheim Berliner Str.",
+        "KNOTENNUMMER": "633",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "901",
+        "STADTTEIL": "Mülheim",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/633/",
+        "OBJECTID": 117
+      },
+      "geometry": {
+        "x": 7.0147586123215531,
+        "y": 50.974767043154529
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Bf Mülheim (U)",
+        "KNOTENNUMMER": "17315",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "901",
+        "STADTTEIL": "Mülheim",
+        "NR_STADTBEZIRK": "9",
+        "STADTBEZIRK": "Mülheim",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17315/",
+        "OBJECTID": 118
+      },
+      "geometry": {
+        "x": 7.0117307910508515,
+        "y": 50.957309118364911
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Mohnweg",
+        "KNOTENNUMMER": "142",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "306",
+        "STADTTEIL": "Junkersdorf",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/142/",
+        "OBJECTID": 119
+      },
+      "geometry": {
+        "x": 6.8553686836295453,
+        "y": 50.937965435163413
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Marsdorf",
+        "KNOTENNUMMER": "235",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "306",
+        "STADTTEIL": "Junkersdorf",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/235/",
+        "OBJECTID": 120
+      },
+      "geometry": {
+        "x": 6.8582210363292102,
+        "y": 50.917484887990909
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Haus Vorst",
+        "KNOTENNUMMER": "713",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "306",
+        "STADTTEIL": "Junkersdorf",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/713/",
+        "OBJECTID": 121
+      },
+      "geometry": {
+        "x": 6.8484185501199866,
+        "y": 50.915677819610131
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Sülzgürtel",
+        "KNOTENNUMMER": "160",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "301",
+        "STADTTEIL": "Klettenberg",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/160/",
+        "OBJECTID": 122
+      },
+      "geometry": {
+        "x": 6.9239329956840638,
+        "y": 50.91236250576798
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Klettenbergpark",
+        "KNOTENNUMMER": "167",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "301",
+        "STADTTEIL": "Klettenberg",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/167/",
+        "OBJECTID": 123
+      },
+      "geometry": {
+        "x": 6.9193088540850969,
+        "y": 50.907886383656489
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Akazienweg",
+        "KNOTENNUMMER": "264",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "403",
+        "STADTTEIL": "Bickendorf",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/264/",
+        "OBJECTID": 124
+      },
+      "geometry": {
+        "x": 6.8927196538084905,
+        "y": 50.96125552989006
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Äußere Kanalstr.",
+        "KNOTENNUMMER": "262",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "403",
+        "STADTTEIL": "Bickendorf",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/262/",
+        "OBJECTID": 125
+      },
+      "geometry": {
+        "x": 6.9020045320013299,
+        "y": 50.957067064844352
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Kalker Friedhof",
+        "KNOTENNUMMER": "539",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "806",
+        "STADTTEIL": "Merheim",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/539/",
+        "OBJECTID": 126
+      },
+      "geometry": {
+        "x": 7.0421431410931872,
+        "y": 50.942523689947279
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Merheim",
+        "KNOTENNUMMER": "540",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "806",
+        "STADTTEIL": "Merheim",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/540/",
+        "OBJECTID": 127
+      },
+      "geometry": {
+        "x": 7.0480971823883607,
+        "y": 50.944079458464735
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Pohligstr.",
+        "KNOTENNUMMER": "52",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "205",
+        "STADTTEIL": "Zollstock",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/52/",
+        "OBJECTID": 128
+      },
+      "geometry": {
+        "x": 6.94144871709649,
+        "y": 50.91647444317384
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Herthastr.",
+        "KNOTENNUMMER": "53",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "205",
+        "STADTTEIL": "Zollstock",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/53/",
+        "OBJECTID": 129
+      },
+      "geometry": {
+        "x": 6.940794333850393,
+        "y": 50.91293791912355
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Gottesweg",
+        "KNOTENNUMMER": "54",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "205",
+        "STADTTEIL": "Zollstock",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/54/",
+        "OBJECTID": 130
+      },
+      "geometry": {
+        "x": 6.9415670278866957,
+        "y": 50.910360731469865
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Zollstockgürtel",
+        "KNOTENNUMMER": "56",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "205",
+        "STADTTEIL": "Zollstock",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/56/",
+        "OBJECTID": 131
+      },
+      "geometry": {
+        "x": 6.9421182284323599,
+        "y": 50.905268305094062
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Zollstock Südfriedhof",
+        "KNOTENNUMMER": "57",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "205",
+        "STADTTEIL": "Zollstock",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/57/",
+        "OBJECTID": 132
+      },
+      "geometry": {
+        "x": 6.9441206662367847,
+        "y": 50.900946210806374
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Kalk Kapelle",
+        "KNOTENNUMMER": "513",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "802",
+        "STADTTEIL": "Kalk",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/513/",
+        "OBJECTID": 133
+      },
+      "geometry": {
+        "x": 7.0085434344427799,
+        "y": 50.93894452500686
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Kalk Post",
+        "KNOTENNUMMER": "512",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "802",
+        "STADTTEIL": "Kalk",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/512/",
+        "OBJECTID": 134
+      },
+      "geometry": {
+        "x": 6.998482844634033,
+        "y": 50.937529827073575
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Schaffrathsgasse",
+        "KNOTENNUMMER": "242",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "404",
+        "STADTTEIL": "Vogelsang",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/242/",
+        "OBJECTID": 135
+      },
+      "geometry": {
+        "x": 6.8701661648779924,
+        "y": 50.971556716113938
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Wolffsohnstr.",
+        "KNOTENNUMMER": "282",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "404",
+        "STADTTEIL": "Vogelsang",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/282/",
+        "OBJECTID": 136
+      },
+      "geometry": {
+        "x": 6.8845380039203121,
+        "y": 50.965156227948732
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Westfriedhof",
+        "KNOTENNUMMER": "283",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "404",
+        "STADTTEIL": "Vogelsang",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/283/",
+        "OBJECTID": 137
+      },
+      "geometry": {
+        "x": 6.8784745231907714,
+        "y": 50.967458319042308
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Bocklemünd",
+        "KNOTENNUMMER": "291",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "404",
+        "STADTTEIL": "Vogelsang",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/291/",
+        "OBJECTID": 138
+      },
+      "geometry": {
+        "x": 6.8728161668291667,
+        "y": 50.969379516411543
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Ostheim",
+        "KNOTENNUMMER": "533",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "805",
+        "STADTTEIL": "Ostheim",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/533/",
+        "OBJECTID": 139
+      },
+      "geometry": {
+        "x": 7.0412343923145047,
+        "y": 50.929236519614832
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Autobahn (Stadtbahn)",
+        "KNOTENNUMMER": "534",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "805",
+        "STADTTEIL": "Ostheim",
+        "NR_STADTBEZIRK": "8",
+        "STADTBEZIRK": "Kalk",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/534/",
+        "OBJECTID": 140
+      },
+      "geometry": {
+        "x": 7.0538035777962129,
+        "y": 50.927119040227957
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Subbelrather Str./Gürtel",
+        "KNOTENNUMMER": "245",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "402",
+        "STADTTEIL": "Neuehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/245/",
+        "OBJECTID": 141
+      },
+      "geometry": {
+        "x": 6.9212429101989228,
+        "y": 50.954687457286937
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Nußbaumerstr.",
+        "KNOTENNUMMER": "246",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "402",
+        "STADTTEIL": "Neuehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/246/",
+        "OBJECTID": 142
+      },
+      "geometry": {
+        "x": 6.9235662110964684,
+        "y": 50.957015296436026
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Lenauplatz",
+        "KNOTENNUMMER": "247",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "402",
+        "STADTTEIL": "Neuehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/247/",
+        "OBJECTID": 143
+      },
+      "geometry": {
+        "x": 6.9183306739849852,
+        "y": 50.958566805408658
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Iltisstr.",
+        "KNOTENNUMMER": "249",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "402",
+        "STADTTEIL": "Neuehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/249/",
+        "OBJECTID": 144
+      },
+      "geometry": {
+        "x": 6.9120133916604534,
+        "y": 50.965223445815624
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Schönhauser Str.",
+        "KNOTENNUMMER": "65",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "201",
+        "STADTTEIL": "Bayenthal",
+        "NR_STADTBEZIRK": "2",
+        "STADTBEZIRK": "Rodenkirchen",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/65/",
+        "OBJECTID": 145
+      },
+      "geometry": {
+        "x": 6.9720725974182418,
+        "y": 50.914092844051865
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Aachener Str./Gürtel",
+        "KNOTENNUMMER": "178",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "304",
+        "STADTTEIL": "Braunsfeld",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/178/",
+        "OBJECTID": 146
+      },
+      "geometry": {
+        "x": 6.9085445507257361,
+        "y": 50.937006201033384
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Maarweg",
+        "KNOTENNUMMER": "179",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "304",
+        "STADTTEIL": "Braunsfeld",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/179/",
+        "OBJECTID": 147
+      },
+      "geometry": {
+        "x": 6.8993577463564426,
+        "y": 50.937194226249218
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Clarenbachstift",
+        "KNOTENNUMMER": "180",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "304",
+        "STADTTEIL": "Braunsfeld",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/180/",
+        "OBJECTID": 148
+      },
+      "geometry": {
+        "x": 6.8942955037065383,
+        "y": 50.937323024025133
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Eupener Str.",
+        "KNOTENNUMMER": "181",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "304",
+        "STADTTEIL": "Braunsfeld",
+        "NR_STADTBEZIRK": "3",
+        "STADTBEZIRK": "Lindenthal",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/181/",
+        "OBJECTID": 149
+      },
+      "geometry": {
+        "x": 6.8892334019218247,
+        "y": 50.93746058970391
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Severinstr.",
+        "KNOTENNUMMER": "11",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "101",
+        "STADTTEIL": "Altstadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/11/",
+        "OBJECTID": 150
+      },
+      "geometry": {
+        "x": 6.9568667193128055,
+        "y": 50.929095908158331
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Poststr.",
+        "KNOTENNUMMER": "3",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "101",
+        "STADTTEIL": "Altstadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/3/",
+        "OBJECTID": 151
+      },
+      "geometry": {
+        "x": 6.9500686535751095,
+        "y": 50.931245969556997
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Neumarkt",
+        "KNOTENNUMMER": "2",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "101",
+        "STADTTEIL": "Altstadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/2/",
+        "OBJECTID": 152
+      },
+      "geometry": {
+        "x": 6.9489059977170173,
+        "y": 50.93562424121815
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Mauritiuskirche",
+        "KNOTENNUMMER": "4",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "101",
+        "STADTTEIL": "Altstadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/4/",
+        "OBJECTID": 153
+      },
+      "geometry": {
+        "x": 6.9450642702392376,
+        "y": 50.934190158090608
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Rudolfplatz (Stadtbahn)",
+        "KNOTENNUMMER": "17163",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "101",
+        "STADTTEIL": "Altstadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17163/",
+        "OBJECTID": 154
+      },
+      "geometry": {
+        "x": 6.9396149410994452,
+        "y": 50.936265748817746
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Rudolfplatz (Stadtbahn)",
+        "KNOTENNUMMER": "17192",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "101",
+        "STADTTEIL": "Altstadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17192/",
+        "OBJECTID": 155
+      },
+      "geometry": {
+        "x": 6.9401159504387779,
+        "y": 50.935713365581215
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Neumarkt (Stadtbahn)",
+        "KNOTENNUMMER": "17220",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "101",
+        "STADTTEIL": "Altstadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17220/",
+        "OBJECTID": 156
+      },
+      "geometry": {
+        "x": 6.9476856634366797,
+        "y": 50.935777987014447
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Neumarkt (Stadtbahn)",
+        "KNOTENNUMMER": "17222",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "101",
+        "STADTTEIL": "Altstadt/Süd",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17222/",
+        "OBJECTID": 157
+      },
+      "geometry": {
+        "x": 6.947127847317164,
+        "y": 50.936330863824544
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Breslauer Platz/Hbf",
+        "KNOTENNUMMER": "9",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "103",
+        "STADTTEIL": "Altstadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/9/",
+        "OBJECTID": 158
+      },
+      "geometry": {
+        "x": 6.9586458500434354,
+        "y": 50.944363156488109
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Appellhofplatz",
+        "KNOTENNUMMER": "7",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "103",
+        "STADTTEIL": "Altstadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/7/",
+        "OBJECTID": 159
+      },
+      "geometry": {
+        "x": 6.950431704476717,
+        "y": 50.93998063320597
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Appellhofplatz (U)",
+        "KNOTENNUMMER": "17199",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "103",
+        "STADTTEIL": "Altstadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17199/",
+        "OBJECTID": 160
+      },
+      "geometry": {
+        "x": 6.9502990574550996,
+        "y": 50.941150324160738
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Dom/Hbf (U)",
+        "KNOTENNUMMER": "17190",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "103",
+        "STADTTEIL": "Altstadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17190/",
+        "OBJECTID": 161
+      },
+      "geometry": {
+        "x": 6.9567286416171452,
+        "y": 50.941771988986908
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Heumarkt",
+        "KNOTENNUMMER": "1",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "103",
+        "STADTTEIL": "Altstadt/Nord",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/1/",
+        "OBJECTID": 162
+      },
+      "geometry": {
+        "x": 6.9599901182780988,
+        "y": 50.935713369686965
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Leyendeckerstr.",
+        "KNOTENNUMMER": "255",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "401",
+        "STADTTEIL": "Ehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/255/",
+        "OBJECTID": 163
+      },
+      "geometry": {
+        "x": 6.9099519232697171,
+        "y": 50.954434443408999
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Venloer Str./Gürtel",
+        "KNOTENNUMMER": "251",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "401",
+        "STADTTEIL": "Ehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/251/",
+        "OBJECTID": 164
+      },
+      "geometry": {
+        "x": 6.9167138418702718,
+        "y": 50.950183535280161
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Körnerstr.",
+        "KNOTENNUMMER": "237",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "401",
+        "STADTTEIL": "Ehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/237/",
+        "OBJECTID": 165
+      },
+      "geometry": {
+        "x": 6.9203057035168856,
+        "y": 50.948312462897491
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Piusstr.",
+        "KNOTENNUMMER": "236",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "401",
+        "STADTTEIL": "Ehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/236/",
+        "OBJECTID": 166
+      },
+      "geometry": {
+        "x": 6.9257955213171547,
+        "y": 50.946012731203062
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Oskar-Jäger-Str./Gürtel",
+        "KNOTENNUMMER": "182",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "401",
+        "STADTTEIL": "Ehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/182/",
+        "OBJECTID": 167
+      },
+      "geometry": {
+        "x": 6.910990497320614,
+        "y": 50.939863705729863
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Gutenbergstr.",
+        "KNOTENNUMMER": "238",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "401",
+        "STADTTEIL": "Ehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/238/",
+        "OBJECTID": 168
+      },
+      "geometry": {
+        "x": 6.92827291463525,
+        "y": 50.950370835422362
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Liebigstr.",
+        "KNOTENNUMMER": "239",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "401",
+        "STADTTEIL": "Ehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/239/",
+        "OBJECTID": 169
+      },
+      "geometry": {
+        "x": 6.9241563463454767,
+        "y": 50.952327211921038
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Weinsbergstr./Gürtel",
+        "KNOTENNUMMER": "254",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "401",
+        "STADTTEIL": "Ehrenfeld",
+        "NR_STADTBEZIRK": "4",
+        "STADTBEZIRK": "Ehrenfeld",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/254/",
+        "OBJECTID": 170
+      },
+      "geometry": {
+        "x": 6.9127157191756776,
+        "y": 50.945135927350989
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Lohsestr.",
+        "KNOTENNUMMER": "305",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "501",
+        "STADTTEIL": "Nippes",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/305/",
+        "OBJECTID": 171
+      },
+      "geometry": {
+        "x": 6.9552566539310599,
+        "y": 50.958108619963483
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Florastr.",
+        "KNOTENNUMMER": "304",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "501",
+        "STADTTEIL": "Nippes",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/304/",
+        "OBJECTID": 172
+      },
+      "geometry": {
+        "x": 6.953619729625661,
+        "y": 50.965052743547766
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Neusser Str./Gürtel",
+        "KNOTENNUMMER": "303",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "501",
+        "STADTTEIL": "Nippes",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/303/",
+        "OBJECTID": 173
+      },
+      "geometry": {
+        "x": 6.9513627892144001,
+        "y": 50.972334492838918
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Niehl",
+        "KNOTENNUMMER": "342",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "504",
+        "STADTTEIL": "Niehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/342/",
+        "OBJECTID": 174
+      },
+      "geometry": {
+        "x": 6.955682533370541,
+        "y": 50.994799304956473
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Niehl Sebastianstr.",
+        "KNOTENNUMMER": "343",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "504",
+        "STADTTEIL": "Niehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/343/",
+        "OBJECTID": 175
+      },
+      "geometry": {
+        "x": 6.961396190950226,
+        "y": 50.985232783969984
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Geestemünder Str.",
+        "KNOTENNUMMER": "367",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "504",
+        "STADTTEIL": "Niehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/367/",
+        "OBJECTID": 176
+      },
+      "geometry": {
+        "x": 6.9552870173242924,
+        "y": 51.001895039759113
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Fordwerke Süd",
+        "KNOTENNUMMER": "368",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "504",
+        "STADTTEIL": "Niehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/368/",
+        "OBJECTID": 177
+      },
+      "geometry": {
+        "x": 6.9553827120296265,
+        "y": 51.005858499238343
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Fordwerke Mitte",
+        "KNOTENNUMMER": "369",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "504",
+        "STADTTEIL": "Niehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/369/",
+        "OBJECTID": 178
+      },
+      "geometry": {
+        "x": 6.9554210107519312,
+        "y": 51.011880951148406
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Fordwerke Nord",
+        "KNOTENNUMMER": "370",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "504",
+        "STADTTEIL": "Niehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/370/",
+        "OBJECTID": 179
+      },
+      "geometry": {
+        "x": 6.9554199274598005,
+        "y": 51.017373358286008
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Nesselrodestr.",
+        "KNOTENNUMMER": "818",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "504",
+        "STADTTEIL": "Niehl",
+        "NR_STADTBEZIRK": "5",
+        "STADTBEZIRK": "Nippes",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/818/",
+        "OBJECTID": 180
+      },
+      "geometry": {
+        "x": 6.9688718324091452,
+        "y": 50.976972772789637
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Ensen Gilgaustr.",
+        "KNOTENNUMMER": "451",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "703",
+        "STADTTEIL": "Ensen",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/451/",
+        "OBJECTID": 181
+      },
+      "geometry": {
+        "x": 7.0311469073151702,
+        "y": 50.899544224716514
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Ensen Kloster",
+        "KNOTENNUMMER": "452",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "703",
+        "STADTTEIL": "Ensen",
+        "NR_STADTBEZIRK": "7",
+        "STADTBEZIRK": "Porz",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/452/",
+        "OBJECTID": 182
+      },
+      "geometry": {
+        "x": 7.0473121440016362,
+        "y": 50.897116895217835
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Deutz-Kalker Bad",
+        "KNOTENNUMMER": "44",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "105",
+        "STADTTEIL": "Deutz",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/44/",
+        "OBJECTID": 183
+      },
+      "geometry": {
+        "x": 6.9861402118049201,
+        "y": 50.936484144531718
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Deutzer Freiheit",
+        "KNOTENNUMMER": "39",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "105",
+        "STADTTEIL": "Deutz",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/39/",
+        "OBJECTID": 184
+      },
+      "geometry": {
+        "x": 6.9703670009804961,
+        "y": 50.936679294798779
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Bf Deutz/Messe (U)",
+        "KNOTENNUMMER": "17217",
+        "TYP": "Ubahn",
+        "NR_STADTTEIL": "105",
+        "STADTTEIL": "Deutz",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17217/",
+        "OBJECTID": 185
+      },
+      "geometry": {
+        "x": 6.9778009255090021,
+        "y": 50.939754520012457
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Suevenstr.",
+        "KNOTENNUMMER": "40",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "105",
+        "STADTTEIL": "Deutz",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/40/",
+        "OBJECTID": 186
+      },
+      "geometry": {
+        "x": 6.9766648249304302,
+        "y": 50.933066979043303
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Koelnmesse",
+        "KNOTENNUMMER": "42",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "105",
+        "STADTTEIL": "Deutz",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/42/",
+        "OBJECTID": 187
+      },
+      "geometry": {
+        "x": 6.9816372203496551,
+        "y": 50.942886558232352
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Drehbrücke",
+        "KNOTENNUMMER": "46",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "105",
+        "STADTTEIL": "Deutz",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/46/",
+        "OBJECTID": 188
+      },
+      "geometry": {
+        "x": 6.9749611716537814,
+        "y": 50.928469692592344
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Poller Kirchweg",
+        "KNOTENNUMMER": "47",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "105",
+        "STADTTEIL": "Deutz",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/47/",
+        "OBJECTID": 189
+      },
+      "geometry": {
+        "x": 6.9800236635737889,
+        "y": 50.923671916828965
+      }
+    },
+    {
+      "attributes": {
+        "NAME": "Bf Deutz / LANXESS arena (Bus)",
+        "KNOTENNUMMER": "17392",
+        "TYP": "Stadtbahn",
+        "NR_STADTTEIL": "105",
+        "STADTTEIL": "Deutz",
+        "NR_STADTBEZIRK": "1",
+        "STADTBEZIRK": "Innenstadt",
+        "HYPERLINK": "http://www.kvb-koeln.de/qr/17392/",
+        "OBJECTID": 190
+      },
+      "geometry": {
+        "x": 6.9784853094191126,
+        "y": 50.939146498446938
+      }
+    }
+  ]
+}
