@@ -36,7 +36,7 @@ Aktuelle Daten vom 28.11.2016
 => <code>linepath.php?line=7&direction=1 oder linepath.php?line=7&direction=2</code>
 
 ####examples/map.php
-*Zeigt die aktuellen Stadtbahnhaltestellen mit Fahrplaninfos auf einer Karte an. Google Maps Key wird benötigt*
+*Zeigt die aktuellen Stadtbahnhaltestellen mit Fahrplaninfos auf einer Karte an. Und zusätzlich noch die Park and Ride Anlagen von Köln. Google Maps Key wird benötigt*
 
 ####examples/linemap.php
 *Zeigt den aktuellen Linienplan der KVB ab. Google Maps Key wird benötigt*
@@ -50,6 +50,7 @@ Aktuelle Daten vom 28.11.2016
 ## Services
 - https://offenedaten-koeln.de/dataset/haltestellen-stadtbahn-u-bahn-koeln
 - https://offenedaten-koeln.de/dataset/strecke-stadtbahn-u-bahn-koeln
+- https://offenedaten-koeln.de/dataset/park-and-ride-anlagen-koeln
 - [KVB Webseite](https://www.kvb-koeln.de/)
 - [phpQuery](https://github.com/bariew/phpquery)
 - Google Maps API
