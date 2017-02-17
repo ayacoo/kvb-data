@@ -62,6 +62,25 @@ Aktuelle Daten vom 17.02.2017
 
 Dieser Service ist gerade in Entwicklung (Beta). Der Code geht sicherlich schöner, aber kann natürlich nach Belieben benutzt und verändert werden. Es gilt: Keine Gewähr für den Code ;-)
 
+
+# Telegram Bot v1 (in Arbeit)
+- /stoerung (Optional Linie) Zeigt Mofi Hinweise an
+- /haltestelle "(Name oder ID)" (Linie)
+  Gefunden oder Vorschlag
+  
+Meintest du…
+
+[437] Poll Salmstraße
+[25] Hansaring
+
+Dann gib nun “/haltestelle ID” ein  
+  
+- /linienweg (Linie)
+- /parkandride Park and Ride Stations (Man kann via Telegram auch Standorte schicken)
+
+# Telegram Bot v2 (Ideenfindung)
+- /kvbrad Zeige das nächstgelegene Fahrrad an. (Abhängig davon ob Telegram GPS Daten übermitteln kann) 
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.
