@@ -5,3 +5,5 @@
 /json/tramDisruptions.json
 /json/busDisruptions.json
 /examples/linemapWithKey.php
+/mofistats/*
+/.htaccess

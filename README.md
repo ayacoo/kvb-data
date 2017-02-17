@@ -2,8 +2,8 @@
 
 Ziel ist die Bereitstellung von KVB Daten in JSON Form um diese in anderen Applikationen nutzen zu können. Als Hilfe 
 zur Visualisierung dienen die Beispiele. Als Unterstützung zur Datenabfrage wird phpQuery genutzt. Teilweise werden 
-offene Daten genutzt, aber größtenteils findet eine Abfrage auf die KVB Seite statt. Daher sollten die Daten im 
-richtigen Betrieb gecached werden.
+offene Daten genutzt, aber größtenteils findet eine Abfrage auf die KVB Seite statt. **Daher sollten die Daten im 
+richtigen Betrieb gecached werden.**
 
 ## Datenbasis
 
@@ -19,7 +19,7 @@ richtigen Betrieb gecached werden.
 ###linecolors.json
 *Die Farbcodes wurden basierend auf dem aktuellen Liniennetzplan der KVB und mit Hilfe von Colorzilla ausgelesen*
 
-Aktuelle Daten vom 28.11.2016
+Aktuelle Daten vom 17.02.2017
 - stations.json (selbst generiert)
 - lines.json (selbst generiert)
 - linecolors.json (selbst generiert)
@@ -34,16 +34,19 @@ Aktuelle Daten vom 28.11.2016
 ####examples/linepath.php
 *Erzeugt eine Liste des Linienweges anhand einer übergebenen Linie*
 => <code>linepath.php?line=7&direction=1 oder linepath.php?line=7&direction=2</code>
+=> https://www.ayacoo.de/kvb/examples/linepath.php
 
 ####examples/map.php
 *Zeigt die aktuellen Stadtbahnhaltestellen mit Fahrplaninfos auf einer Karte an. Und zusätzlich noch die Park and Ride Anlagen von Köln. Google Maps Key wird benötigt*
+=> https://www.ayacoo.de/kvb/examples/mapWithKey.php
 
 ####examples/linemap.php
 *Zeigt den aktuellen Linienplan der KVB ab. Google Maps Key wird benötigt*
 => <code>Einzelne Linien können so abgerufen werden linemap.php?line=1</code>
+=> https://www.ayacoo.de/kvb/examples/linemapWithKey.php
 
 # Mögliche Anwendungsfälle
-- Telegram Bot anbinden ("/haltestelle Neumarkt" oder "/haltestelle [ID]")
+- Telegram Bot anbinden (Gerade begonnen) ("/haltestelle Neumarkt" oder "/haltestelle [ID]")
 - Auswertungen der Störungen
 - Abfahrtsmonitor für Orte / Geschäfte / Firmen
 

@@ -35,18 +35,50 @@ if ($content !== false) {
     $disruptionList = array();
     for ($i = $start; $i <= $end; $i = $i + 2) {
         $m++;
+        // Daten holen
         $kvbDisruption = pq('#content > div.fliesstext.mobile100pc > div > table:nth-child(' . $i
             . ') > tr:nth-child(3) > td')->html();
         $arrKvbDisruptions = explode('*', $kvbDisruption);
 
+        // Daten verarbeiten
         $line = $arrKvbDisruptions[0];
         $line = str_replace('Linien', '', $line);
         $line = str_replace('Linie', '', $line);
-        $disruptionList[$m]['line'] = trim($line);
-        $disruptionList[$m]['state'] = trim($arrKvbDisruptions[1]);
+        $line = str_replace(' und ', ',', $line);
+
+        // Ausgabe erstellen
+        $disruptionList[$m]['lines'] = trim($line);
+        list($state, $delay) = handleState(trim($arrKvbDisruptions[1]));
+        $disruptionList[$m]['state'] = $state;
+        $disruptionList[$m]['delay'] = $delay;
         $disruptionList[$m]['stations'] = array_map('trim', explode('-', $arrKvbDisruptions[2]));
     }
 
     echo $jsonDisruptions = json_encode($disruptionList);
     file_put_contents('../json/' . $targetFile, $jsonDisruptions);
+}
+
+/**
+ * Meldung der KVB verarbeiten
+ *
+ * @param string $state KVB Meldung
+ *
+ * @return array($state, $delay) Status und Verspätung
+ */
+function handleState($state)
+{
+    $delay = 0;
+    if (strpos($state, 'Folgende Fahrt entfällt') !== false) {
+        $state = 'cancellation';
+    }
+    if (strpos($state, 'Folgende Fahrt erfolgt') !== false) {
+        $delay = str_replace('Folgende Fahrt erfolgt ca. ', '', $state);
+        $delay = trim(str_replace(' Min. später', '', $delay));
+        $state = 'delay';
+    }
+    if (strpos($state, 'Hohes Verkehrsaufkommen') !== false) {
+        $state = 'hightraffic';
+    }
+
+    return array($state, $delay);
 }

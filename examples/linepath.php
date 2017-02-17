@@ -34,4 +34,6 @@ if ($line > 0) {
 
         echo json_encode($arrStations);
     }
+} else {
+    echo 'No line defined. Example: linepath.php?line=9&direction=1';
 }
