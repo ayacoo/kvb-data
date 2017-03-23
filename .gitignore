@@ -1,9 +1,10 @@
 /phpQuery.php
 /phpQuery/
 /examples/mapWithKey.php
+/examples/linemapWithKey.php
 /generator/mofi-content.php
 /json/tramDisruptions.json
 /json/busDisruptions.json
-/examples/linemapWithKey.php
+/json/koelntakt.json
 /mofistats/*
 /.htaccess

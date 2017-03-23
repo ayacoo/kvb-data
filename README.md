@@ -13,6 +13,9 @@ richtigen Betrieb gecached werden.**
 ####generator/lines.php
 *Erzeugt eine Liste der aktuellen Linien. Getrennt nach Bus und Bahn => json/lines.json*
 
+####generator/koelntakt.php
+*Erzeugt eine Download Liste des KölnTakt Archives => json/koelntakt.json*
+
 ####generator/mofi.php
 *Erzeugt eine Liste der aktuellen Bus oder Bahn Störungen => json/tramDisruptions.json / json/busDisruptions.json*
 
