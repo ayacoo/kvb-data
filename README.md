@@ -7,19 +7,19 @@ richtigen Betrieb gecached werden.**
 
 ## Datenbasis
 
-####generator/stations.php
+#### generator/stations.php
 *Erzeugt eine Liste der aktuellen Haltestellen (gilt auch für Bushaltestellen) => json/stations.json*
 
-####generator/lines.php
+#### generator/lines.php
 *Erzeugt eine Liste der aktuellen Linien. Getrennt nach Bus und Bahn => json/lines.json*
 
-####generator/koelntakt.php
+#### generator/koelntakt.php
 *Erzeugt eine Download Liste des KölnTakt Archives => json/koelntakt.json*
 
-####generator/mofi.php
+#### generator/mofi.php
 *Erzeugt eine Liste der aktuellen Bus oder Bahn Störungen => json/tramDisruptions.json / json/busDisruptions.json*
 
-###linecolors.json
+#### linecolors.json
 *Die Farbcodes wurden basierend auf dem aktuellen Liniennetzplan der KVB und mit Hilfe von Colorzilla ausgelesen*
 
 Aktuelle Daten vom 03.10.2017
@@ -32,23 +32,23 @@ Aktuelle Daten vom 03.10.2017
 
 # Beispiele
 
-####examples/station.php
+#### examples/station.php
 *Holt alle Abfahrtszeiten einer ausgewählten Haltestellen via UID*
 => <code>Hansaring station.php?id=36</code>
 
-####examples/linepath.php
+#### examples/linepath.php
 *Erzeugt eine Liste des Linienweges anhand einer übergebenen Linie*
 => <code>linepath.php?line=7&direction=1 oder linepath.php?line=7&direction=2</code>
-=> https://ayacoo.bellatrix.uberspace.de/kvb/kvb/examples/linepath.php
+=> https://ayacoo.bellatrix.uberspace.de/kvb/examples/linepath.php
 
-####examples/map.php
+#### examples/map.php
 *Zeigt die aktuellen Stadtbahnhaltestellen mit Fahrplaninfos auf einer Karte an. Und zusätzlich noch die Park and Ride Anlagen von Köln. Google Maps Key wird benötigt*
-=> https://ayacoo.bellatrix.uberspace.de/kvb/kvb/examples/mapWithKey.php
+=> https://ayacoo.bellatrix.uberspace.de/kvb/examples/mapWithKey.php
 
-####examples/linemap.php
+#### examples/linemap.php
 *Zeigt den aktuellen Linienplan der KVB ab. Google Maps Key wird benötigt*
 => <code>Einzelne Linien können so abgerufen werden linemap.php?line=1</code>
-=> https://ayacoo.bellatrix.uberspace.de/kvb/kvb/examples/linemapWithKey.php
+=> https://ayacoo.bellatrix.uberspace.de/kvb/examples/linemapWithKey.php
 
 # Mögliche Anwendungsfälle
 - Telegram Bot anbinden (Gerade begonnen) ("/haltestelle Neumarkt" oder "/haltestelle [ID]")
@@ -81,10 +81,10 @@ Meintest du…
 Dann gib nun "/haltestelle ID" ein  
   
 - /linienweg "(Pflicht: Linie)"
-- /parkandride "(Optional: Name)"
 - /koelntakt
 
 # Telegram Bot v2 (Ideenfindung)
+- /parkandride "(Optional: Name)"
 - /kvbrad Zeige das nächstgelegene Fahrrad an. (Abhängig davon ob Telegram GPS Daten übermitteln kann) 
 
 ## License

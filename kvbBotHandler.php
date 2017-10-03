@@ -35,9 +35,6 @@ Hier könnt ihr folgende Abfragen durchführen:
 /stoerung - Zeigt dir die aktuellen Betriebsstörungen an
 /koelntakt - Zeigt dir die letzten drei KölnTakt Links an. Optional mit Zahl bestimmen, wieviel Links angezeigt werden sollen
 
-TODO
-/parkandride - Zeigt dir ParkAndRide Plätze an. Optional kann man einen Namen angeben
-
 Bei Rückmeldungen oder Fragen einfach eine E-Mail an info@ayacoo.de';
 
     $message_id = $message['message_id'];
