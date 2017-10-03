@@ -22,10 +22,12 @@ richtigen Betrieb gecached werden.**
 ###linecolors.json
 *Die Farbcodes wurden basierend auf dem aktuellen Liniennetzplan der KVB und mit Hilfe von Colorzilla ausgelesen*
 
-Aktuelle Daten vom 17.02.2017
-- stations.json (selbst generiert)
-- lines.json (selbst generiert)
+Aktuelle Daten vom 03.10.2017
 - linecolors.json (selbst generiert)
+- linemap.json (Quelle: OpenData, Link siehe unten)
+- lines.json (selbst generiert)
+- parkandride.json (Quelle: OpenData, Link siehe unten)
+- stations.json (selbst generiert)
 - tramStations.json (Quelle: OpenData, Link siehe unten)
 
 # Beispiele
@@ -37,16 +39,16 @@ Aktuelle Daten vom 17.02.2017
 ####examples/linepath.php
 *Erzeugt eine Liste des Linienweges anhand einer übergebenen Linie*
 => <code>linepath.php?line=7&direction=1 oder linepath.php?line=7&direction=2</code>
-=> https://www.ayacoo.de/kvb/examples/linepath.php
+=> https://ayacoo.bellatrix.uberspace.de/kvb/kvb/examples/linepath.php
 
 ####examples/map.php
 *Zeigt die aktuellen Stadtbahnhaltestellen mit Fahrplaninfos auf einer Karte an. Und zusätzlich noch die Park and Ride Anlagen von Köln. Google Maps Key wird benötigt*
-=> https://www.ayacoo.de/kvb/examples/mapWithKey.php
+=> https://ayacoo.bellatrix.uberspace.de/kvb/kvb/examples/mapWithKey.php
 
 ####examples/linemap.php
 *Zeigt den aktuellen Linienplan der KVB ab. Google Maps Key wird benötigt*
 => <code>Einzelne Linien können so abgerufen werden linemap.php?line=1</code>
-=> https://www.ayacoo.de/kvb/examples/linemapWithKey.php
+=> https://ayacoo.bellatrix.uberspace.de/kvb/kvb/examples/linemapWithKey.php
 
 # Mögliche Anwendungsfälle
 - Telegram Bot anbinden (Gerade begonnen) ("/haltestelle Neumarkt" oder "/haltestelle [ID]")
@@ -66,9 +68,9 @@ Aktuelle Daten vom 17.02.2017
 Dieser Service ist gerade in Entwicklung (Beta). Der Code geht sicherlich schöner, aber kann natürlich nach Belieben benutzt und verändert werden. Es gilt: Keine Gewähr für den Code ;-)
 
 
-# Telegram Bot v1 (in Arbeit)
-- /stoerung (Optional Linie) Zeigt Mofi Hinweise an
-- /haltestelle "(Name oder ID)" (Linie)
+# Telegram Bot v1
+- /stoerung "(Optional Linie)"
+- /haltestelle "(Pflicht: Name oder ID)"
   Gefunden oder Vorschlag
   
 Meintest du…
@@ -76,10 +78,11 @@ Meintest du…
 [437] Poll Salmstraße
 [25] Hansaring
 
-Dann gib nun “/haltestelle ID” ein  
+Dann gib nun "/haltestelle ID" ein  
   
-- /linienweg (Linie)
-- /parkandride Park and Ride Stations (Man kann via Telegram auch Standorte schicken)
+- /linienweg "(Pflicht: Linie)"
+- /parkandride "(Optional: Name)"
+- /koelntakt
 
 # Telegram Bot v2 (Ideenfindung)
 - /kvbrad Zeige das nächstgelegene Fahrrad an. (Abhängig davon ob Telegram GPS Daten übermitteln kann) 
