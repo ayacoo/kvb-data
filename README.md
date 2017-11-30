@@ -7,6 +7,9 @@ richtigen Betrieb gecached werden.**
 
 ## Datenbasis
 
+#### generator/elevator.php
+*Erzeugt eine Liste der Aufzugsstörungen => json/elevators.json*
+
 #### generator/stations.php
 *Erzeugt eine Liste der aktuellen Haltestellen (gilt auch für Bushaltestellen) => json/stations.json*
 

@@ -6,6 +6,7 @@
 /json/tramDisruptions.json
 /json/busDisruptions.json
 /json/koelntakt.json
+/json/elevators.json
 /mofistats/*
 /.htaccess
 /config.php
