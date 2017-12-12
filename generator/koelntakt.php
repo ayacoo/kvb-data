@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../phpQuery.php';
 require_once __DIR__ . '/curlHelper.php';
 
-$content = getData('http://www.kvb-koeln.de/german/aktuelles/koelntakt.html');
+$content = getData('https://www.kvb.koeln/unternehmen/presse/publikationen/koelntakt.html');
 if ($content !== false) {
     $content = str_replace('&nbsp;', '', $content);
     $doc = phpQuery::newDocumentHTML($content);
@@ -16,11 +16,9 @@ if ($content !== false) {
             $link = htmlspecialchars(trim(pq($download)->find('a')->attr('href')));
             $title = htmlspecialchars(str_replace(')(', ') (', trim(strip_tags(pq($download)->html()))));
             $magazines[$i]['title'] = $title;
-            $magazines[$i]['link'] = 'http://www.kvb-koeln.de' . $link;
+            $magazines[$i]['link'] = 'https://www.kvb.koeln' . $link;
         }
     }
     $json = json_encode($magazines);
-    file_put_contents('../json/koelntakt.json', $json);
-
-    echo 'Köln Takt Liste wurde aktualisiert!';
+    file_put_contents(__DIR__ . '/../json/koelntakt.json', $json);
 }

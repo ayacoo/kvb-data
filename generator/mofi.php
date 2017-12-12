@@ -4,16 +4,18 @@
  * Bei Bedarf der Buslinien muss generator/mofi.php?type=bus aufgerufen werden
  */
 
-require_once('/var/www/virtual/ayacoo/html/kvb/phpQuery.php');
-require_once('curlHelper.php');
+require_once __DIR__ . '/../phpQuery.php';
+require_once __DIR__ . '/curlHelper.php';
 
-$kvbUrl = 'http://www.kvb-koeln.de/german/home/mofis_bahn.html';
+$kvbUrl = 'https://www.kvb.koeln/fahrtinfo/betriebslage/bahn/';
 $targetFile = 'tramDisruptions.json';
 getDisruptions($kvbUrl, $targetFile);
 
+/*
 $kvbUrl = 'http://www.kvb-koeln.de/german/home/mofis_bus.html';
 $targetFile = 'busDisruptions.json';
 getDisruptions($kvbUrl, $targetFile);
+*/
 
 function getDisruptions($kvbUrl, $targetFile)
 {
@@ -22,39 +24,27 @@ function getDisruptions($kvbUrl, $targetFile)
         $content = str_replace('&nbsp;', '', $content);
         $content = utf8_encode($content);
         $content = html_entity_decode($content);
-        $doc = phpQuery::newDocumentHTML($content);
+        phpQuery::newDocumentHTML($content);
 
-        // Anzahl der Meldungen berechnen
-        $counter = pq('.top_head_rot_small')->count();
-        $start = 3;
-        $end = $start + ($counter * 2) - 2;
-
-        // Gehe alle Meldungen durch
         $m = -1;
-        $disruptionList = array();
-        for ($i = $start; $i <= $end; $i = $i + 2) {
+        $disruptions = pq('table > tr');
+        foreach ($disruptions as $disruption) {
             $m++;
-            // Daten holen
-            $kvbDisruption = pq('#content > div.fliesstext.mobile100pc > div > table:nth-child(' . $i
-                . ') > tr:nth-child(3) > td')->html();
-            $arrKvbDisruptions = explode('*', $kvbDisruption);
+            $line = pq($disruption)->find('.number')->text();
+            pq($disruption)->find('.info-list')->remove();
+            $desc = pq($disruption)->find('td')->text();
+            $arrKvbDisruptions = explode('*', $desc);
 
-            // Daten verarbeiten
-            $line = $arrKvbDisruptions[0];
-            $line = str_replace('Linien', '', $line);
-            $line = str_replace('Linie', '', $line);
-            $line = str_replace(' und ', ',', $line);
-
-            // Ausgabe erstellen
             $disruptionList[$m]['lines'] = trim($line);
-            list($state, $delay) = handleState(trim($arrKvbDisruptions[1]));
+            list($state, $delay) = handleState(trim($arrKvbDisruptions[0]));
             $disruptionList[$m]['state'] = $state;
             $disruptionList[$m]['delay'] = $delay;
-            $disruptionList[$m]['stations'] = array_map('trim', explode('-', $arrKvbDisruptions[2]));
+            $disruptionList[$m]['stations'] = array_map('trim', explode('-', $arrKvbDisruptions[1]));
         }
 
-        echo $jsonDisruptions = json_encode($disruptionList);
-        file_put_contents('/var/www/virtual/ayacoo/html/kvb/json/' . $targetFile, $jsonDisruptions);
+        // Ausgabe erstellen
+        $jsonDisruptions = json_encode($disruptionList);
+        file_put_contents(__DIR__ . '/../json/' . $targetFile, $jsonDisruptions);
     }
 }
 
@@ -79,6 +69,9 @@ function handleState($state)
     if (strpos($state, 'Hohes Verkehrsaufkommen') !== false) {
         $state = 'hightraffic';
     }
+    if (strpos($state, 'Der Fahrleitungsschaden') !== false) {
+        $state = 'catenaryDamage';
+    }
 
-    return array($state, $delay);
+    return [$state, $delay];
 }

@@ -1,7 +1,7 @@
 <?php
 $choosenLine = 0;
 if (isset($_GET['line'])) {
-    $choosenLine = intval($_GET['line']);
+    $choosenLine = (int) $_GET['line'];
 }
 
 $json = file_get_contents('../json/linecolors.json');
@@ -47,8 +47,8 @@ $arrColors = json_decode($json);
             $line = trim(str_replace('Linie', '', $station->attributes->LINIENVERKEHR));
             $arrLines = explode(',', $line);
             // Prüfung ob die Linie korrekt gesetzt wurde, alternativ zeige alles an
-            $tmpLine = intval($arrLines[0]);
-            if ((in_array($choosenLine, $arrLines) || ($choosenLine === 0)) && ($tmpLine > 0)) {
+            $tmpLine = (int) $arrLines[0];
+            if (($tmpLine > 0) && (in_array($choosenLine, $arrLines, true) || ($choosenLine === 0))) {
                 $i++;
                 echo 'var linePathCoordinates' . $i . ' = [';
                 foreach ($station->geometry->paths[0] as $loc) {

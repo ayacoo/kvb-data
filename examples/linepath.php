@@ -3,16 +3,16 @@
  * Abfrage um den Weg einer Linie auszulesen
  * examples/linepath.php?line=9&direction=1
  */
-require_once('../phpQuery.php');
-require_once('../generator/curlHelper.php');
+require_once __DIR__ . '/../phpQuery.php';
+require_once __DIR__ . '../generator/curlHelper.php';
 
 $line = 0;
 if (isset($_GET['line'])) {
-    $line = intval($_GET['line']);
+    $line = (int) $_GET['line'];
 }
 $direction = 1;
 if (isset($_GET['direction'])) {
-    $direction = intval($_GET['direction']);
+    $direction = (int) $_GET['direction'];
 }
 
 if ($line > 0) {

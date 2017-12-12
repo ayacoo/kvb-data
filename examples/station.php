@@ -8,7 +8,7 @@ require_once('../generator/curlHelper.php');
 
 // Haltestellen ID Abfrage
 if (isset($_GET['id'])) {
-    $uid = intval($_GET['id']);
+    $uid = (int) $_GET['id'];
 } else {
     return false;
 }
