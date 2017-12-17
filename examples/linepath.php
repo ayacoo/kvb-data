@@ -4,7 +4,7 @@
  * examples/linepath.php?line=9&direction=1
  */
 require_once __DIR__ . '/../phpQuery.php';
-require_once __DIR__ . '../generator/curlHelper.php';
+require_once __DIR__ . '/../generator/curlHelper.php';
 
 $line = 0;
 if (isset($_GET['line'])) {
@@ -16,20 +16,19 @@ if (isset($_GET['direction'])) {
 }
 
 if ($line > 0) {
-    $url = 'http://www.kvb-koeln.de/german/hst/showline/36/' . $line . '/';
+    $url = 'https://www.kvb.koeln/haltestellen/showline/36/' . $line . '/';
     $content = getData($url);
     if ($content !== false) {
-        $content = str_replace('&nbsp;', '', $content);
         $doc = phpQuery::newDocumentHTML($content);
 
-        $arrStations = array();
+        $arrStations = [];
         if ($direction === 1) {
-            $stations = pq('#content > div.fliesstext.mobile100pc > div > div:nth-child(2) > table > tr > td > a');
+            $stations = pq('body > div.container.section > div.modul > div.row > div:nth-child(1) > table > tr > td');
         } else {
-            $stations = pq('#content > div.fliesstext.mobile100pc > div > div:nth-child(3) > table > tr > td > a');
+            $stations = pq('body > div.container.section > div.modul > div.row > div:nth-child(2) > table > tr > td');
         }
         foreach ($stations as $station) {
-            $arrStations[] = trim(pq($station)->text());
+            $arrStations[] = trim(pq($station)->find('a')->text());
         }
 
         echo json_encode($arrStations);
