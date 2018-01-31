@@ -5,10 +5,16 @@ zur Visualisierung dienen die Beispiele. Als Unterstützung zur Datenabfrage wir
 offene Daten genutzt, aber größtenteils findet eine Abfrage auf die KVB Seite statt. **Daher sollten die Daten im 
 richtigen Betrieb gecached werden.**
 
+## Update Januar 2018
+
+Die KVB erweitert nach und nach ihr OpenData PortFolio, so dass dieses Repo nicht zwingend mehr den Nutzen haben muss. Daher unbedingt vor Nutzung immer diese Seite prüfen:
+https://kvb.koeln/service/open_data.html 
+
 ## Datenbasis
 
 #### generator/elevator.php
-*Erzeugt eine Liste der Aufzugsstörungen => json/elevators.json*
+*~~Erzeugt eine Liste der Aufzugsstörungen => json/elevators.json~~*
+Update 31.01.2018: Mittlerweile bietet die KVB selbst eine offene Lösung an
 
 #### generator/stations.php
 *Erzeugt eine Liste der aktuellen Haltestellen (gilt auch für Bushaltestellen) => json/stations.json*
@@ -59,10 +65,12 @@ Aktuelle Daten vom 03.10.2017
 - Abfahrtsmonitor für Orte / Geschäfte / Firmen
 
 ## Services
-- https://offenedaten-koeln.de/dataset/haltestellen-stadtbahn-u-bahn-koeln
-- https://offenedaten-koeln.de/dataset/strecke-stadtbahn-u-bahn-koeln
-- https://offenedaten-koeln.de/dataset/park-and-ride-anlagen-koeln
+- https://www.offenedaten-koeln.de/dataset/haltestellen-stadtbahn-u-bahn-koeln
+- https://www.offenedaten-koeln.de/dataset/strecke-stadtbahn-u-bahn-koeln
+- https://www.offenedaten-koeln.de/dataset/park-and-ride-anlagen-koeln
+- https://www.offenedaten-koeln.de/dataset/aufzuege-kvb-koeln
 - [KVB Webseite](https://www.kvb-koeln.de/)
+- [KVB OpenData](https://kvb.koeln/service/open_data.html)
 - [phpQuery](https://github.com/bariew/phpquery)
 - Google Maps API
 
