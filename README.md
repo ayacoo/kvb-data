@@ -3,18 +3,18 @@
 Ziel ist die Bereitstellung von KVB Daten in JSON Form um diese in anderen Applikationen nutzen zu können. Als Hilfe 
 zur Visualisierung dienen die Beispiele. Als Unterstützung zur Datenabfrage wird phpQuery genutzt. Teilweise werden 
 offene Daten genutzt, aber größtenteils findet eine Abfrage auf die KVB Seite statt. **Daher sollten die Daten im 
-richtigen Betrieb gecached werden.**
+richtigen Betrieb gecached werden.** Das Repo dient ausschließlich als Hilfestellung für eure Ideenfindung und Daten die eben noch nicht als OpenData zur Verfügung stehen.
 
-## Update Januar 2018
+## Update März 2019
 
 Die KVB erweitert nach und nach ihr OpenData PortFolio, so dass dieses Repo nicht zwingend mehr den Nutzen haben muss. Daher unbedingt vor Nutzung immer diese Seite prüfen:
 https://kvb.koeln/service/open_data.html 
 
-## Datenbasis
+- Das Repo wurde nur minimal erweitert. PHP 7 ist nun Pflicht.
+- Liniengenerator an den aktuellen Stand angepasst
+- Daten aktualisiert
 
-#### generator/elevator.php
-*~~Erzeugt eine Liste der Aufzugsstörungen => json/elevators.json~~*
-Update 31.01.2018: Mittlerweile bietet die KVB selbst eine offene Lösung an
+## Datenbasis
 
 #### generator/stations.php
 *Erzeugt eine Liste der aktuellen Haltestellen (gilt auch für Bushaltestellen) => json/stations.json*
@@ -31,7 +31,7 @@ Update 31.01.2018: Mittlerweile bietet die KVB selbst eine offene Lösung an
 #### linecolors.json
 *Die Farbcodes wurden basierend auf dem aktuellen Liniennetzplan der KVB und mit Hilfe von Colorzilla ausgelesen*
 
-Aktuelle Daten vom 03.10.2017
+Aktuelle Daten vom 24.03.2019
 - linecolors.json (selbst generiert)
 - linemap.json (Quelle: OpenData, Link siehe unten)
 - lines.json (selbst generiert)
@@ -44,11 +44,12 @@ Aktuelle Daten vom 03.10.2017
 #### examples/station.php
 *Holt alle Abfahrtszeiten einer ausgewählten Haltestellen via UID*
 => <code>Hansaring station.php?id=36</code>
+=> https://ayacoo.bellatrix.uberspace.de/kvb/examples/station.php?id=36
 
 #### examples/linepath.php
 *Erzeugt eine Liste des Linienweges anhand einer übergebenen Linie*
 => <code>linepath.php?line=7&direction=1 oder linepath.php?line=7&direction=2</code>
-=> https://ayacoo.bellatrix.uberspace.de/kvb/examples/linepath.php
+=> https://ayacoo.bellatrix.uberspace.de/kvb/examples/linepath.php?line=7&direction=2
 
 #### examples/map.php
 *Zeigt die aktuellen Stadtbahnhaltestellen mit Fahrplaninfos auf einer Karte an. Und zusätzlich noch die Park and Ride Anlagen von Köln. Google Maps Key wird benötigt*
@@ -76,7 +77,8 @@ Aktuelle Daten vom 03.10.2017
 
 ## Entwicklungsstand
 
-Dieser Service ist gerade in Entwicklung (Beta). Der Code geht sicherlich schöner, aber kann natürlich nach Belieben benutzt und verändert werden. Es gilt: Keine Gewähr für den Code ;-)
+Der Code geht auf jeden Fall schöner, aber kann natürlich nach Belieben benutzt und verändert werden. Eine ToDo wäre phpQuery durch DOM Abfragen zu ersetzen. 
+Es gilt: Der Code ist nicht für einen Livebetrieb gedacht und keine Gewähr für den Code.
 
 
 # Telegram Bot v1
@@ -92,11 +94,7 @@ Meintest du…
 Dann gib nun "/haltestelle ID" ein  
   
 - /linienweg "(Pflicht: Linie)"
-- /koelntakt
-
-# Telegram Bot v2 (Ideenfindung)
-- /parkandride "(Optional: Name)"
-- /kvbrad Zeige das nächstgelegene Fahrrad an. (Abhängig davon ob Telegram GPS Daten übermitteln kann) 
+- /koelntakt 
 
 ## License
 

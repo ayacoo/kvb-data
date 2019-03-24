@@ -19,7 +19,7 @@ include_once 'config.php';
 </ul>
 
 <p>Telegram Bot</p>
-<p>Einfach nach Benutzername @KVBKoeln_Bot suchen und KOnversation starten.</p>
+<p>Einfach nach Benutzername @KVBKoeln_Bot suchen und Konversation starten.</p>
 
 Github Base mit Dokumentation: <a target="_blank" href="https://github.com/ayacoo/kvb-data">https://github.com/ayacoo/kvb-data</a>
 <br/>
@@ -28,7 +28,7 @@ Github Base mit Dokumentation: <a target="_blank" href="https://github.com/ayaco
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<small>Stand 03.10.2017</small>
+<small>Stand 24.03.2019</small>
 
 </body>
 </html>>

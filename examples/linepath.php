@@ -6,14 +6,8 @@
 require_once __DIR__ . '/../phpQuery.php';
 require_once __DIR__ . '/../generator/curlHelper.php';
 
-$line = 0;
-if (isset($_GET['line'])) {
-    $line = (int) $_GET['line'];
-}
-$direction = 1;
-if (isset($_GET['direction'])) {
-    $direction = (int) $_GET['direction'];
-}
+$line = (int) ($_GET['line'] ?? 0);
+$direction = (int) ($_GET['direction'] ?? 1);
 
 if ($line > 0) {
     $url = 'https://www.kvb.koeln/haltestellen/showline/36/' . $line . '/';
