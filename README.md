@@ -44,21 +44,21 @@ Aktuelle Daten vom 24.03.2019
 #### examples/station.php
 *Holt alle Abfahrtszeiten einer ausgewählten Haltestellen via UID*
 => <code>Hansaring station.php?id=36</code>
-=> https://ayacoo.bellatrix.uberspace.de/kvb/examples/station.php?id=36
+=> https://ayacoo7.uber.space/kvb/examples/station.php?id=36
 
 #### examples/linepath.php
 *Erzeugt eine Liste des Linienweges anhand einer übergebenen Linie*
 => <code>linepath.php?line=7&direction=1 oder linepath.php?line=7&direction=2</code>
-=> https://ayacoo.bellatrix.uberspace.de/kvb/examples/linepath.php?line=7&direction=2
+=> https://ayacoo7.uber.space/kvb/examples/linepath.php?line=7&direction=2
 
 #### examples/map.php
 *Zeigt die aktuellen Stadtbahnhaltestellen mit Fahrplaninfos auf einer Karte an. Und zusätzlich noch die Park and Ride Anlagen von Köln. Google Maps Key wird benötigt*
-=> https://ayacoo.bellatrix.uberspace.de/kvb/examples/mapWithKey.php
+=> https://ayacoo7.uber.space/kvb/examples/mapWithKey.php
 
 #### examples/linemap.php
 *Zeigt den aktuellen Linienplan der KVB ab. Google Maps Key wird benötigt*
 => <code>Einzelne Linien können so abgerufen werden linemap.php?line=1</code>
-=> https://ayacoo.bellatrix.uberspace.de/kvb/examples/linemapWithKey.php
+=> https://ayacoo7.uber.space/kvb/examples/linemapWithKey.php
 
 # Mögliche Anwendungsfälle
 - Telegram Bot anbinden (Gerade begonnen) ("/haltestelle Neumarkt" oder "/haltestelle [ID]")
