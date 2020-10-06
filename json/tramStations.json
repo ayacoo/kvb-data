@@ -5,11 +5,11 @@
     "NAME": "Name",
     "KNOTENNUMMER": "Knotennummer",
     "TYP": "Typ",
-    "NR_STADTTEIL": "Stadtteil-Nr.",
+    "NR_STADTTEIL": "Stadtteil (Nr.)",
     "STADTTEIL": "Stadtteil",
-    "NR_STADTBEZIRK": "Stadtbezirk-Nr.",
+    "NR_STADTBEZIRK": "Stadtbezirk (Nr.)",
     "STADTBEZIRK": "Stadtbezirk",
-    "HYPERLINK": "HYPERLINK",
+    "HYPERLINK": "Hyperlink",
     "OBJECTID": "OBJECTID"
   },
   "geometryType": "esriGeometryPoint",
@@ -39,7 +39,7 @@
     {
       "name": "NR_STADTTEIL",
       "type": "esriFieldTypeString",
-      "alias": "Stadtteil-Nr.",
+      "alias": "Stadtteil (Nr.)",
       "length": 3
     },
     {
@@ -51,7 +51,7 @@
     {
       "name": "NR_STADTBEZIRK",
       "type": "esriFieldTypeString",
-      "alias": "Stadtbezirk-Nr.",
+      "alias": "Stadtbezirk (Nr.)",
       "length": 1
     },
     {
@@ -63,7 +63,7 @@
     {
       "name": "HYPERLINK",
       "type": "esriFieldTypeString",
-      "alias": "HYPERLINK",
+      "alias": "Hyperlink",
       "length": 200
     },
     {

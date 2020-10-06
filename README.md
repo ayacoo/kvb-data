@@ -33,7 +33,7 @@ https://kvb.koeln/service/open_data.html
 #### linecolors.json
 *Die Farbcodes wurden basierend auf dem aktuellen Liniennetzplan der KVB und mit Hilfe von Colorzilla ausgelesen*
 
-Aktuelle Daten vom 24.03.2019
+Aktuelle Daten vom 06.10.2020
 - linecolors.json (selbst generiert)
 - linemap.json (Quelle: OpenData, Link siehe unten)
 - lines.json (selbst generiert)

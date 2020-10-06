@@ -31,4 +31,4 @@ Github Base mit Dokumentation: <a target="_blank" href="https://github.com/ayaco
 <small>Stand 06.10.2020</small>
 
 </body>
-</html>>
+</html>
