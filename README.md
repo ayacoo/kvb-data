@@ -25,6 +25,8 @@ https://kvb.koeln/service/open_data.html
 #### generator/koelntakt.php
 *Erzeugt eine Download Liste des KölnTakt Archives => json/koelntakt.json*
 
+*Beispiel: https://ayacoo7.uber.space/kvb/json/koelntakt.json*
+
 #### generator/mofi.php
 *Erzeugt eine Liste der aktuellen Bus oder Bahn Störungen => json/tramDisruptions.json / json/busDisruptions.json*
 

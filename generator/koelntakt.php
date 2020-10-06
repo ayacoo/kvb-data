@@ -12,12 +12,10 @@ if ($content !== false) {
     $downloads = pq('div.grau_seiten.clear');
     foreach ($downloads as $download) {
         $i++;
-        if ($i > 1) {
-            $link = htmlspecialchars(trim(pq($download)->find('a')->attr('href')));
-            $title = htmlspecialchars(str_replace(')(', ') (', trim(strip_tags(pq($download)->html()))));
-            $magazines[$i]['title'] = $title;
-            $magazines[$i]['link'] = 'https://www.kvb.koeln' . $link;
-        }
+        $link = trim(pq($download)->find('a')->attr('href'));
+        $title = htmlspecialchars(str_replace(')(', ') (', trim(strip_tags(pq($download)->html()))));
+        $magazines[$i]['title'] = $title;
+        $magazines[$i]['link'] = 'https://www.kvb.koeln' . $link;
     }
     $json = json_encode($magazines);
     file_put_contents(__DIR__ . '/../json/koelntakt.json', $json);
